@@ -92,7 +92,7 @@ export default function HeroCarousel({ hero }: { hero: HeroData }) {
         ref={contentRef}
         className="container min-h-[60vh] md:min-h-[72vh] flex flex-col items-center justify-center text-center text-white relative z-10"
       >
-        <h3 className="text-2xl md:text-4xl font-semibold drop-shadow">
+        <h1 className="text-2xl md:text-5xl font-bold drop-shadow">
           <TypeAnimation
             key={titleText}                // re-run if title changes
             // sequence={[titleText]}         // type once
@@ -102,7 +102,7 @@ export default function HeroCarousel({ hero }: { hero: HeroData }) {
             cursor={false}                 // clean hero look
             wrapper="span"
           />
-        </h3>
+        </h1>
 
         <p className="mt-3 md:text-lg text-white/90">{hero?.subtitle}</p>
 
