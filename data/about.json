@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "title": "About Oxford Manor College",
+    "tags": [
+      "Est. 2010",
+      "IGCSE Accredited",
+      "Cambridge Partner"
+    ]
+  },
+  "story": {
+    "text": "Founded on Excellence. Established in 2010, Oxford Manor College delivers a rigorous British curriculum to students in Abuja. Our mission is to nurture leadership, scholarship, and resilience.",
+    "stats": [
+      {
+        "label": "Subjects",
+        "value": "20+"
+      },
+      {
+        "label": "IGCSE Pass",
+        "value": "98%"
+      },
+      {
+        "label": "Years",
+        "value": "15+"
+      }
+    ]
+  },
+  "values": [
+    "RESPECT",
+    "SCHOLARSHIP",
+    "RESILIENCE"
+  ],
+  "accreditations": [
+    "IGCSE Accredited",
+    "Cambridge Partner",
+    "University Partners",
+    "Local Partnerships"
+  ]
+}

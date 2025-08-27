@@ -1,0 +1,118 @@
+{
+  "hero": {
+    "title": "Oxford Manor College",
+    "subtitle": "Excellence in British Education, Abuja",
+    "badges": [
+      "ISO Accredited",
+      "Cambridge Partner",
+      "98% Pass Rate"
+    ],
+    "cta": "Discover Excellence"
+  },
+  "features": [
+    {
+      "title": "Admissions",
+      "desc": "Start your journey with us",
+      "action": "Learn More"
+    },
+    {
+      "title": "Curriculum",
+      "desc": "British GCSE & A-Levels",
+      "action": "Explore"
+    },
+    {
+      "title": "Fees",
+      "desc": "Transparent pricing",
+      "action": "View Fees"
+    },
+    {
+      "title": "News",
+      "desc": "Discover what's new",
+      "action": "Discover"
+    }
+  ],
+  "values": [
+    {
+      "title": "RESPECT",
+      "bullets": [
+        "Honoring diversity, dignity, and individual worth",
+        "Fostering an inclusive, caring community"
+      ]
+    },
+    {
+      "title": "SCHOLARSHIP",
+      "bullets": [
+        "Pursuing academic excellence through rigorous inquiry",
+        "Nurturing intellectual curiosity"
+      ]
+    },
+    {
+      "title": "RESILIENCE",
+      "bullets": [
+        "Building strength, perseverance, and adaptability",
+        "Thriving in new challenges"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Tour College",
+      "desc": "Explore our campus and learning spaces.",
+      "cta": "Learn More"
+    },
+    {
+      "title": "Our Faculty",
+      "desc": "Meet our qualified teachers.",
+      "cta": "Meet Team"
+    },
+    {
+      "title": "IGCSE Success",
+      "desc": "Outstanding examination results.",
+      "cta": "View 2025"
+    },
+    {
+      "title": "Boarding Life",
+      "desc": "Safe, structured environment.",
+      "cta": "Learn More"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Mrs. Aileen",
+      "role": "Parent",
+      "text": "Oxford Manor College has exceeded our expectations. My child is thriving academically and socially."
+    },
+    {
+      "name": "David E.",
+      "role": "Student",
+      "text": "The academic rigor and personalized attention have prepared me for top universities."
+    },
+    {
+      "name": "Sarah Johnson",
+      "role": "Alumni",
+      "text": "The environment and support shaped my confidence and leadership."
+    }
+  ],
+  "news": [
+    {
+      "title": "Outstanding IGCSE Results 2025: 98% Pass Rate Achieved",
+      "tag": "Academic",
+      "date": "10 March, 2025"
+    },
+    {
+      "title": "International Cultural Week 2025: Celebrating Global Diversity",
+      "tag": "Events",
+      "date": "3 March, 2025"
+    },
+    {
+      "title": "UK University Fair 2025: Direct Access to Top Universities",
+      "tag": "Admissions",
+      "date": "24 March, 2025"
+    },
+    {
+      "title": "New Science Laboratory Complex Opens",
+      "tag": "Facilities",
+      "date": "28 March, 2025"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Join the Oxford Manor Family",
+    "subtitle": "Start your application today"
+  },
+  "steps": [
+    "Choose Application Type",
+    "Student & Guardian Information",
+    "Academic Information",
+    "Upload Documents"
+  ],
+  "cta": "Apply Now"
+}

@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Academic Excellence at Oxford Manor",
+    "subtitle": "Your journey to knowledge starts here"
+  },
+  "levels": [
+    {
+      "title": "Early Years",
+      "desc": "Laying strong foundations."
+    },
+    {
+      "title": "Primary School",
+      "desc": "Core literacy, numeracy, and science."
+    },
+    {
+      "title": "Junior Secondary School",
+      "desc": "Expanding knowledge through critical thinking."
+    },
+    {
+      "title": "Senior Secondary",
+      "desc": "IGCSE & A-Levels preparation."
+    }
+  ],
+  "subjects": {
+    "core": [
+      "English Language",
+      "Mathematics",
+      "Basic Science",
+      "Social Studies"
+    ],
+    "sciences": [
+      "Physics",
+      "Chemistry",
+      "Biology"
+    ],
+    "arts": [
+      "History",
+      "Literature",
+      "Fine Arts",
+      "Civic Education"
+    ]
+  },
+  "faculty": [
+    "Dr. Margaret Thompson",
+    "Mr. James Wilson",
+    "Mrs. Sarah Ahmed"
+  ],
+  "calendar": [
+    "Key Academic Dates",
+    "Term 1",
+    "Term 2"
+  ]
+}

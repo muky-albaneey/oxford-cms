@@ -1,0 +1,1 @@
+import { ReactNode } from 'react'; import StudentShell from '@/components/StudentShell'; export default function L({children}:{children:ReactNode}){ return <StudentShell>{children}</StudentShell>; }

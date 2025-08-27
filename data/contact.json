@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch with Oxford Manor College - We're Here to Help"
+  },
+  "info": [
+    [
+      "Phone",
+      "+234 (0) 814 992 4087"
+    ],
+    [
+      "Email",
+      "admissions@oxfordmanor.edu.ng"
+    ],
+    [
+      "Address",
+      "Gwarinpa District, Abuja"
+    ],
+    [
+      "Office Hours",
+      "Mon - Fri 8:00 AM - 4:30 PM"
+    ]
+  ],
+  "departments": [
+    [
+      "Admissions Office",
+      "admissions@oxfordmanor.edu.ng",
+      "+234 (0) 814 992 4087"
+    ],
+    [
+      "Academic Office",
+      "academics@oxfordmanor.edu.ng",
+      "+234 (0) 814 992 4087"
+    ],
+    [
+      "Finance Office",
+      "finance@oxfordmanor.edu.ng",
+      "+234 (0) 814 992 4087"
+    ],
+    [
+      "Student Affairs",
+      "students@oxfordmanor.edu.ng",
+      "+234 (0) 814 992 4087"
+    ]
+  ]
+}
