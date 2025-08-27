@@ -1,27 +1,28 @@
-# Use official Node.js image
-FROM node:20-alpine
-
-# Create app directory
+# deps
+FROM node:20-alpine AS deps
 WORKDIR /app
-
-# Copy package.json and lockfile first
 COPY package*.json ./
-
-# Copy Prisma schema so it can generate early
+RUN npm ci
 COPY prisma ./prisma
-
-# Install dependencies
-RUN npm install
-
-# Generate Prisma client
 RUN npx prisma generate
 
-# Now copy the rest of the application
+# build
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-
-# Build the Next.js application
+# If you use Next.js standalone output, enable in next.config.js:
+# module.exports = { output: 'standalone' }
 RUN npm run build
 
-# Start the app
+# run
+FROM node:20-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+# If using standalone output:
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/prisma ./prisma
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
