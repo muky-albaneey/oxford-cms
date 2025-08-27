@@ -124,6 +124,7 @@ export default function SiteHeader() {
               <Link href="/auth/signin" onClick={close} className="block text-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-white font-semibold hover:opacity-90 transition">Sign In</Link>
               <Link href="/admin" onClick={close} className="block text-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition">Admin</Link>
               <Link href="/staff" onClick={close} className="block text-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition">Staff</Link>
+              <Link href="/student" onClick={close} className="block text-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-white font-semibold hover:opacity-90 transition">student</Link>
             </div>
           </nav>
         </aside>
