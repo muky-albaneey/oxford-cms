@@ -69,6 +69,8 @@ export default function SiteHeader() {
             <Link className="inline-flex items-center justify-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-white font-semibold hover:opacity-90 transition" href="/auth/signin">Sign In</Link>
             <Link className="inline-flex items-center justify-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition" href="/admin">Admin</Link>
             <Link className="inline-flex items-center justify-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition" href="/staff">Staff</Link>
+            <Link className="inline-flex items-center justify-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-white font-semibold hover:opacity-90 transition" href="/student">student</Link>
+
           </div>
 
           {/* Mobile hamburger */}
