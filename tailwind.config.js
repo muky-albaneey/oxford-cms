@@ -10,6 +10,9 @@ module.exports = {
       },
       backgroundImage: { 'brand-gradient':'linear-gradient(90deg,#0D4A86 0%, #1e8e6e 100%)' },
       boxShadow: { soft: "0 4px 20px rgba(2,6,23,0.06)" },
+      fontFamily: {
+        serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      },
     }
   },
   plugins: [],

@@ -1,7 +1,7 @@
 import './globals.css';
 import { ReactNode } from 'react';
 import Link from 'next/link';
-import SiteHeader from '@/components/SiteHeader';
+import SiteHeader, { Topbar } from '@/components/SiteHeader';
 
 function Footer(){
   return (
@@ -54,6 +54,7 @@ export default function RootLayout({ children }: { children: ReactNode }){
   return (
     <html lang="en">
       <body className="bg-white text-ink">
+      
         <SiteHeader />
         <main>{children}</main>
         <Footer />

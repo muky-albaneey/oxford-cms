@@ -3,7 +3,19 @@ import Link from 'next/link';
 import { useState, useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
-
+export function Topbar(){
+  return (
+    <div className="bg-[#125c2d] text-white text-xs">
+      <div className="container py-1 flex items-center justify-between">
+        <div className="space-x-4">
+          <span>+234 (0) 9 123 4567</span>
+          <span>admissions@oxfordmanor.edu.ng</span>
+        </div>
+        <div className="hidden sm:block"/>
+      </div>
+    </div>
+  );
+}
 export default function SiteHeader() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -40,6 +52,7 @@ export default function SiteHeader() {
   return (
     <>
       {/* HEADER */}
+      <Topbar/>
       <header className="sticky top-0 z-40 bg-white/90 backdrop-blur border-b">
         <div className="container py-3 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
@@ -67,9 +80,9 @@ export default function SiteHeader() {
 
           <div className="hidden md:flex items-center gap-2">
             <Link className="inline-flex items-center justify-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-white font-semibold hover:opacity-90 transition" href="/auth/signin">Sign In</Link>
-            <Link className="inline-flex items-center justify-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition" href="/admin">Admin</Link>
-            <Link className="inline-flex items-center justify-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition" href="/staff">Staff</Link>
-            <Link className="inline-flex items-center justify-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-white font-semibold hover:opacity-90 transition" href="/student">student</Link>
+            {/* <Link className="inline-flex items-center justify-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition" href="/admin">Admin</Link>
+            <Link className="inline-flex items-center justify-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition" href="/staff">Staff</Link> */}
+            <Link className="inline-flex items-center justify-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition" href="/student">student</Link>
 
           </div>
 
@@ -124,9 +137,9 @@ export default function SiteHeader() {
 
             <div className="pt-3 space-y-2">
               <Link href="/auth/signin" onClick={close} className="block text-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-white font-semibold hover:opacity-90 transition">Sign In</Link>
-              <Link href="/admin" onClick={close} className="block text-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition">Admin</Link>
-              <Link href="/staff" onClick={close} className="block text-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition">Staff</Link>
-              <Link href="/student" onClick={close} className="block text-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-white font-semibold hover:opacity-90 transition">student</Link>
+              {/* <Link href="/admin" onClick={close} className="block text-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition">Admin</Link>
+              <Link href="/staff" onClick={close} className="block text-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition">Staff</Link> */}
+              <Link href="/student" onClick={close}className="block text-center rounded-md border border-emerald-600 text-emerald-700 px-4 py-2 font-semibold hover:bg-emerald-50 transition">Student</Link>
             </div>
           </nav>
         </aside>

@@ -3,94 +3,129 @@
     "title": "Oxford Manor College",
     "subtitle": "Excellence in British Education, Abuja",
     "badges": [
-      "ISO Accredited",
-      "Cambridge Partner",
-      "98% Pass Rate"
+      {
+        "icon": "shield",
+        "title": "BSO Accredited",
+        "subtitle": "British Schools Overseas"
+      },
+      {
+        "icon": "book",
+        "title": "Cambridge Partner",
+        "subtitle": "Authorized Centre"
+      },
+      {
+        "icon": "globe",
+        "title": "University Partners",
+        "subtitle": "UK, US, Canada"
+      },
+      {
+        "icon": "trophy",
+        "title": "98% Pass Rate",
+        "subtitle": "IGCSE Excellence"
+      }
     ],
-    "cta": "Discover Excellence"
+    "cta": "Discover Excellence",
+    "images": ["hero_1.jpeg", "hero_2.jpeg", "hero_3.jpeg", "hero_4.jpeg"]
   },
   "features": [
     {
+      "icon": "admissions",
       "title": "Admissions",
       "desc": "Start your journey with us",
-      "action": "Learn More"
+      "action": "Learn More",
+      "href": "/admissions"
     },
     {
+      "icon": "curriculum",
       "title": "Curriculum",
-      "desc": "British GCSE & A-Levels",
-      "action": "Explore"
+      "desc": "British IGCSE & A-Levels",
+      "action": "Explore",
+      "href": "/academics"
     },
     {
+      "icon": "fees",
       "title": "Fees",
       "desc": "Transparent pricing",
-      "action": "View Fees"
+      "action": "View Fees",
+      "href": "/admissions"
     },
     {
+      "icon": "news",
       "title": "News",
       "desc": "Discover what's new",
-      "action": "Discover"
+      "action": "Discover",
+      "href": "/news"
     }
   ],
   "values": [
     {
+      "icon": "respect",
       "title": "RESPECT",
-      "bullets": [
-        "Honoring diversity, dignity, and individual worth",
-        "Fostering an inclusive, caring community"
-      ]
+      "description": "Honoring diversity, dignity, and individual worth"
     },
     {
+      "icon": "scholarship",
       "title": "SCHOLARSHIP",
-      "bullets": [
-        "Pursuing academic excellence through rigorous inquiry",
-        "Nurturing intellectual curiosity"
-      ]
+      "description": "Pursuing academic excellence through rigorous inquiry"
     },
     {
+      "icon": "resilience",
       "title": "RESILIENCE",
-      "bullets": [
-        "Building strength, perseverance, and adaptability",
-        "Thriving in new challenges"
-      ]
+      "description": "Building strength, perseverance, and adaptability"
     }
   ],
   "experience": [
     {
+      "image": "/hero_1.jpeg",
+      "tag": "Campus",
       "title": "Tour College",
-      "desc": "Explore our campus and learning spaces.",
-      "cta": "Learn More"
+      "description": "Explore our campus and learning spaces.",
+      "cta": "Learn More",
+      "href": "/about"
     },
     {
+      "image": "/hero_2.jpeg",
+      "tag": "Faculty",
       "title": "Our Faculty",
-      "desc": "Meet our qualified teachers.",
-      "cta": "Meet Team"
+      "description": "Meet our qualified teachers.",
+      "cta": "Meet Team",
+      "href": "/about"
     },
     {
+      "image": "/hero_3.jpeg",
+      "tag": "Results",
       "title": "IGCSE Success",
-      "desc": "Outstanding examination results.",
-      "cta": "View 2025"
+      "description": "Outstanding examination results.",
+      "cta": "View 2025",
+      "href": "/academics"
     },
     {
+      "image": "/hero_4.jpeg",
+      "tag": "Boarding",
       "title": "Boarding Life",
-      "desc": "Safe, structured environment.",
-      "cta": "Learn More"
+      "description": "Safe, structured environment.",
+      "cta": "Learn More",
+      "href": "/admissions"
     }
   ],
   "testimonials": [
     {
       "name": "Mrs. Aileen",
       "role": "Parent",
-      "text": "Oxford Manor College has exceeded our expectations. My child is thriving academically and socially."
+      "text": "Oxford Manor College has exceeded our expectations. My child is thriving academically and socially.",
+      "rating": 5
     },
     {
       "name": "David E.",
       "role": "Student",
-      "text": "The academic rigor and personalized attention have prepared me for top universities."
+      "text": "The academic rigor and personalized attention have prepared me for top universities.",
+      "rating": 5
     },
     {
       "name": "Sarah Johnson",
       "role": "Alumni",
-      "text": "The environment and support shaped my confidence and leadership."
+      "text": "The environment and support shaped my confidence and leadership.",
+      "rating": 5
     }
   ],
   "news": [

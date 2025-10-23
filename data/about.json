@@ -1,38 +1,146 @@
 {
   "hero": {
     "title": "About Oxford Manor College",
+    "subtitle": "Nurturing Excellence, Building Character, Inspiring Futures",
     "tags": [
       "Est. 2010",
       "IGCSE Accredited",
       "Cambridge Partner"
     ]
   },
+  "missionVision": [
+    {
+      "icon": "🎯",
+      "iconColor": "bg-emerald-100",
+      "title": "Our Mission",
+      "description": "To provide exceptional British education that nurtures academic excellence, character development, and global citizenship in our students."
+    },
+    {
+      "icon": "👁️",
+      "iconColor": "bg-orange-100",
+      "title": "Our Vision",
+      "description": "To be the leading British curriculum school in Abuja, recognized for academic rigor, innovative teaching, and holistic student development."
+    },
+    {
+      "icon": "💡",
+      "iconColor": "bg-blue-100",
+      "title": "Our Values",
+      "description": "We uphold respect, scholarship, and resilience as the foundation of our educational philosophy and daily practice."
+    }
+  ],
   "story": {
-    "text": "Founded on Excellence. Established in 2010, Oxford Manor College delivers a rigorous British curriculum to students in Abuja. Our mission is to nurture leadership, scholarship, and resilience.",
+    "paragraphs": [
+      "Founded on Excellence. Established in 2010, Oxford Manor College delivers a rigorous British curriculum to students in Abuja. Our mission is to nurture leadership, scholarship, and resilience.",
+      "Over the years, we have built a reputation for academic excellence, with outstanding IGCSE results and a strong track record of university placements both locally and internationally."
+    ],
     "stats": [
       {
-        "label": "Subjects",
-        "value": "20+"
+        "label": "Years of Experience",
+        "value": "15+"
       },
       {
-        "label": "IGCSE Pass",
+        "label": "IGCSE Pass Rate",
         "value": "98%"
       },
       {
-        "label": "Years",
-        "value": "15+"
+        "label": "Qualified Teachers",
+        "value": "50+"
+      },
+      {
+        "label": "Curriculum Partners",
+        "value": "20+"
       }
-    ]
+    ],
+    "image": "/hero_1.jpeg",
+    "yearBadge": "2019"
   },
   "values": [
-    "RESPECT",
-    "SCHOLARSHIP",
-    "RESILIENCE"
+    {
+      "icon": "❤️",
+      "iconColor": "bg-emerald-100",
+      "title": "RESPECT",
+      "description": "Honoring diversity, dignity, and individual worth, fostering an inclusive and caring community.",
+      "bullets": [
+        "Honoring diversity and individual worth",
+        "Fostering an inclusive, caring community",
+        "Valuing each student's unique contributions",
+        "Building mutual respect and understanding"
+      ]
+    },
+    {
+      "icon": "📚",
+      "iconColor": "bg-orange-100",
+      "title": "SCHOLARSHIP",
+      "description": "Pursuing academic excellence through rigorous inquiry and nurturing intellectual curiosity.",
+      "bullets": [
+        "Rigorous academic standards",
+        "Intellectual curiosity and critical thinking",
+        "Research-based learning approaches",
+        "Continuous improvement and innovation"
+      ]
+    },
+    {
+      "icon": "💪",
+      "iconColor": "bg-blue-100",
+      "title": "RESILIENCE",
+      "description": "Building strength, perseverance, and adaptability, thriving in new challenges.",
+      "bullets": [
+        "Building strength and perseverance",
+        "Adapting to new challenges",
+        "Learning from setbacks",
+        "Developing growth mindset"
+      ]
+    }
   ],
   "accreditations": [
-    "IGCSE Accredited",
-    "Cambridge Partner",
-    "University Partners",
-    "Local Partnerships"
-  ]
+    {
+      "icon": "✓",
+      "iconColor": "bg-emerald-100",
+      "title": "BSO Accredited",
+      "description": "British Schools Overseas accredited institution"
+    },
+    {
+      "icon": "🛡️",
+      "iconColor": "bg-orange-100",
+      "title": "Cambridge Partner",
+      "description": "Authorized Cambridge examination centre"
+    },
+    {
+      "icon": "🌍",
+      "iconColor": "bg-blue-100",
+      "title": "University Partners",
+      "description": "Partnerships with leading UK, US, and Canadian universities"
+    },
+    {
+      "icon": "🎓",
+      "iconColor": "bg-purple-100",
+      "title": "IGCSE Provider",
+      "description": "Certified provider of Cambridge IGCSE qualifications"
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Ms. Modupe Adetola",
+      "title": "Principal",
+      "description": "With over 20 years of experience in British education, Ms. Adetola leads our commitment to academic excellence.",
+      "image": null
+    },
+    {
+      "name": "Dr. James Okoro",
+      "title": "Vice Principal",
+      "description": "Expert in curriculum development and student welfare, ensuring comprehensive educational support.",
+      "image": null
+    },
+    {
+      "name": "Mrs. Amina Hassan",
+      "title": "Head of Academics",
+      "description": "Specialist in IGCSE and A-Level programs, dedicated to student success and achievement.",
+      "image": null
+    }
+  ],
+  "cta": {
+    "text": "Experience excellence in British education. Apply now and become part of our thriving community.",
+    "buttonText": "Apply Now",
+    "href": "/admissions"
+  }
 }
