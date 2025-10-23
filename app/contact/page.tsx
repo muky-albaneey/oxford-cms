@@ -86,8 +86,8 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="font-semibold text-lg text-ink mb-2">Address</h3>
-              <p className="text-slate-600 text-sm">Gwarinpa District</p>
-              <p className="text-slate-600 text-sm">Abuja FCT, Nigeria</p>
+              <p className="text-slate-600 text-sm">No 9 Magaji Muazu</p>
+              <p className="text-slate-600 text-sm">Katampe Extension, Abuja</p>
             </div>
 
             {/* Office Hours Card */}
@@ -238,29 +238,30 @@ export default function ContactPage() {
               Find Us
             </h2>
             <p className="text-slate-600">
-              Located in the heart of Owerri, Anaba.
+              Located in Katampe Extension, Abuja FCT.
             </p>
           </div>
 
-          {/* Map Placeholder */}
+          {/* Google Maps Embed */}
           <div className="max-w-4xl mx-auto mb-8">
-            <div className="relative rounded-2xl overflow-hidden shadow-lg h-96 bg-slate-200 flex items-center justify-center">
-              <div className="text-center">
-                <div className="bg-emerald-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                </div>
-                <p className="text-slate-600 font-medium">View on Map</p>
-              </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-lg h-96">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.8!2d7.5!3d9.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOSBNYWdhamkgTXWhYXV6dSBLYXRhbXBlIEV4dGVuc2lvbiwgQWJ1amEhITkvMTAxNzE!5e0!3m2!1sen!2sng!4v1234567890123!5m2!1sen!2sng"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Oxford Manor College Location"
+              />
             </div>
           </div>
 
           {/* Google Maps Button */}
           <div className="text-center mb-12">
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/maps/search/?api=1&query=No+9+Magaji+Muazu+Katampe+Extension+Abuja"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
@@ -275,7 +276,7 @@ export default function ContactPage() {
           {/* Mini Contact Boxes */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
-              { icon: '📍', title: 'Address', info: 'Gwarinpa District, Abuja FCT, Nigeria' },
+              { icon: '📍', title: 'Address', info: 'No 9 Magaji Muazu\nKatampe Extension, Abuja FCT' },
               { icon: '🕐', title: 'Visiting Hours', info: 'Mon-Fri: 9:00 AM - 3:00 PM\nSat: 10:00 AM - 1:00 PM' },
               { icon: '📞', title: 'Call Ahead Info', info: 'Please call ahead for appointments\nand campus tours' }
             ].map((item, i) => (
