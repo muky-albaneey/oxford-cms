@@ -72,7 +72,8 @@ export default function Hero({ hero }: { hero: HeroData }) {
       </div>
 
       {/* Dark Green Gradient Overlay */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/50 to-black/70" />
+      {/* <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/50 to-black/70" /> */}
+<div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/70 via-black/35 to-black/40" />
 
       {/* Content */}
       <div className="container relative z-10 min-h-[80vh] md:min-h-[85vh] flex flex-col items-center justify-center text-center text-white px-4">
